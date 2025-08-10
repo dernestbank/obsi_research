@@ -1,0 +1,3 @@
+
+
+Ir is the least abundant element on the earth, requiring a 50‐fold reduction of Ir‐specific power density (gIr kW−1), down to 0.01, compared to today's commercial electrolyzers (≈mgIr's cm−2).[ [15](https://pmc.ncbi.nlm.nih.gov/articles/PMC8564452/#advs3034-bib-0015) ] In order to enable the necessary Ir loading reduction down to 0.05–0.1 mg cm−2, efficient catalyst utilization is extremely important in PEMWE as less catalytic sites are available.[ [5](https://pmc.ncbi.nlm.nih.gov/articles/PMC8564452/#advs3034-bib-0005) ]

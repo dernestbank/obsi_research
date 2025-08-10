@@ -1,0 +1,11 @@
+
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.aiff
+data/files/energy data/*.zip
+**/.obsidian/
