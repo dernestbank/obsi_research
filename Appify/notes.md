@@ -132,3 +132,59 @@ also remeber to mark complete all completed task when they are finished
 
 
 naa the electrolyser design page should should be electrolcheical desdign driven with parameters such as temperature current density, thickness of membrane and electrolde layers, exchange current densities, limiting current densities, operating pressure, Active cell area etc
+
+
+now begin process the task in @/tasks/tasks-prd-streamlit-ui.md to write the code following the instructions in @/prompts/04process-task.md
+
+
+Biosteam plus plus
+process simulation gui with biosteam
+techno-economic analysis 
+agentic chat interface copilot
+- 
+ML features
+flowsheet generation
+
+ 429 error fixes
+---
+
+Implement Exponential Backoff:
+If requests fail with a 429 error, instead of immediately retrying, wait for an increasing amount of time before subsequent retries.
+
+Check Quota Usage:
+Review the API usage dashboard or relevant documentation to understand the specific quota limits for your project and API key.
+
+Utilize Caching:
+If possible, cache API responses to reduce the need for repeated requests for the same data within a short period.
+
+gemini-2.0-flash-thinking-ex-01-21
+---
+Supports images
+Does not support computer use
+Does not support prompt caching
+Context Window: 1,048,576 tokens
+Max output: 65,536 tokens
+* Free up to 15 requests per minute. After that, billing depends on prompt size
+* 
+
+gemini-pro-exp-03-25
+---
+Context Window: 1,048,576 tokens
+Max output: 65,535 tokens
+* Free up to 2 requests per minute. 
+
+Supports images
+Does not support computer use
+Does not support prompt cachin
+
+
+gemini-2.5-flash-preview-04-17
+---
+Supports images
+Does not support computer use
+Does not support prompt caching
+Context Window: 1,048,576 tokens
+Max output: 65,535 tokens
+Input price: $0.15 / 1M tokens
+Output price: $0.60 / 1M tokens
+* Free up to 15 requests per minute. After that, billing depends on prompt size.
