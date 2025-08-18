@@ -787,7 +787,7 @@ The primary challenge is transforming these equations, which are largely present
     - Local species concentrations (affecting Eq 17/22) are determined by 2D mass transport (diffusion and convection) and local reaction rates
 
 2. **Mass Transport in 2D:** Equations 14-17 and 20-22 provide a simplified approach to mass transport limitation using concepts like limiting current density and Sherwood number, typically applied over a characteristic length. In 2D, you would generally solve coupled PDEs for species conservation: ∂t
-![[image-10.png]]
+![[Writing/2025/attachments/image-10.png]]
 	where ck​ is concentration, Deff,k​ is effective diffusivity (Eq 14 is a good start for Deff​ but its application needs to be in the ∇ term), u is the fluid velocity vector (needs to be obtained from fluid dynamics), and Sk​ is the source/sink term from electrochemical reactions (linked to local current density)
 	
 3. **Fluid Dynamics in 2D:** Equations 30-33 describe channel hydraulics in a simplified 1D manner. For a 2D model, you need to model fluid flow within the 2D domain, particularly in porous media (GDLs, catalyst layers) and potentially flow channels. This typically involves solving some form of the Navier-Stokes equations (in channels) and Brinkman or Darcy equations (in porous media), coupled with continuity
@@ -1418,7 +1418,7 @@ plt.show()
 
 ```
 
-![[image-11.png]]
+![[Writing/2025/attachments/image-11.png]]
 
 The plot above shows:
 
@@ -1471,7 +1471,7 @@ plt.show()
 
 ```
 
-![[image-12.png]]
+![[Writing/2025/attachments/image-12.png]]
 
 The Sankey diagram illustrates how the input electrical power PELP_{EL}PEL​ is distributed:
 
@@ -1503,7 +1503,7 @@ With this Sankey, you can immediately see the 50% HHV efficiency, where half of 
     * Loop back to the next time step or operating point.
 * **Purpose:** Guides the code structure and clearly highlights the coupling points between different physical phenomena within the model.
 
-![[image-14.png]]
+![[Writing/2025/attachments/image-14.png]]
 
 The flowchart above guides the step‑by‑step implementation:
 
@@ -1623,7 +1623,7 @@ plt.show()
 
 ```
 
-![[image-15.png]]
+![[Writing/2025/attachments/image-15.png]]
 
 These heatmaps reveal:
 
@@ -1631,7 +1631,7 @@ These heatmaps reveal:
     - Efficiency peaks at low current density and high flow rates (darker green/yellow).
     - Efficiency declines at high currents, with stronger sensitivity when flow rates are low (more purple shading).
 
-![[image-16.png]]
+![[Writing/2025/attachments/image-16.png]]
 
 **SE_H₂ vs. i and kₜheta** (bottom):
 

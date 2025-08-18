@@ -72,3 +72,63 @@ The PV energy system simulator provides the following outputs:
 
 
 ![[image.png]]
+
+
+
+
+
+
+--- personal prompts
+
+I am developing and modifying a previous model by hysupply on Technoeconomic Analysis of Green hydrogen production. .
+The detail on original model can be found at @/about/documentation.md 
+ i will customize it for the united state' scenarios based on the USA's RE energy potentials.We will add a streamlit web user interface.We want to predict the cost of hydrogen variable to different geographical locations in the state.
+ 
+I'm adding a UI interface for the model with streamlit.( with nice)
+I will add submodules that includes a PEM electrolyser design and options , An energy system design ( wind turbine, solar panel)
+ a more dynamic physics informed Renewable energy plant model that changes based on geographical location by latitude and longitude. with also an api calling feature for some system parameters specific to different locations. Solar and Wind traces can be extracted using Renewables Ninja https://www.renewables.ninja/ Requests for data
+ I will add a PEM design model with a physic-informed electrochemical model that simulates hydrogen production in the PEM electrolyser.
+ 
+method and details of the model @/About/Manual1.md 
+results and calculations pae are shown at @/about/3\ Worksheet.md 
+
+Write an about project and save to @about/project.md following the instructions in @/prompts/01planning.md 
+
+
+
+now write out the task needed for this project follow the instructions given in @prompts/02create-prd and save to 
+
+let's start with the streamlit ui first, we will make sure it follows the original excell sheet organization. and work out the backend later.
+
+ restructure pages and inputs.
+ For the main TEA module
+organize the user input well. read about the proj from @Manual1.md and get the right inputs.
+Keep all inputs on one page(inputs page) in groups, some on sidebar, others on main page. 
+note that we are converting a work a excel based work to a web based app.
+
+Restructure the results page
+restructure the Pages and content. read @'3 Worksheet' for details
+with details as shown in The Results sheet Results- should have all visualizations shown at results page with all plots and visualizations as described in S2. Results at @'3 Worksheet'  from Figures 8 to Figures14.
+other pages are should follow as described in @'3 Worksheet'
+Levelized cost analysis ,
+S3. Levelised Cost Analysis
+This sheet calculates the capital and operating costs for each component of the model. It presents the annual operational profile for each year up to the lifetime as well as the discounted and non￾discounted cash flows.
+S4. Cash Flow Analysis
+Sheet S4 contains the detailed cash flows required for calculation of the net profit, return on 
+investment and payback period.
+Cashflow analysis
+S5. Raw Data
+To calculate the annual hydrogen production, the tool relies on hourly electricity generation 
+profiles in the form of capacity factor traces. 
+ The Raw Data sheet currently contains hourly solar and wind traces
+S6. Working Data
+The Working Data sheet (Figure 18) is where the hourly electrolyser operation and outputs are 
+calculated. 
+
+also remeber to mark complete all completed task when they are finished
+
+
+
+
+
+naa the electrolyser design page should should be electrolcheical desdign driven with parameters such as temperature current density, thickness of membrane and electrolde layers, exchange current densities, limiting current densities, operating pressure, Active cell area etc

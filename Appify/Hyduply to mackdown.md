@@ -42,6 +42,11 @@ These figures are explained in Section 3.
 ![[Figure 4 The outputs section of the results sheet.jpg]]
 
 Figure 4. The outputs section of the Results sheet.
+
+
+-----
+
+
 ## 3. Worksheets
 
 P1. Project Title
@@ -222,6 +227,10 @@ Figure 20. Preloaded SEC vs Load Profile of AE electrolyser adopted from literat
 
 ![[Preloaded SEC vs Load Profile of PEM electrolyser adopted from literature.jpg]]
 Figure 21. Preloaded SEC vs Load Profile of PEM electrolyser adopted from literature3.
+
+
+----
+
 # 4. Scope of Analysis and Inputs
 
 ## 4.1. System Boundary
@@ -243,19 +252,13 @@ The Hydrogen Cost Analysis Tool is designed for a spatial analysis of hydrogen g
 
 - **NEM sites**
     - New South Wales (NSW)
-        
     - Queensland (QLD)
-        
     - Victoria (VIC)
-        
     - South Australia (SA)
-        
     - Tasmania (TAS)
         
 - **Non-NEM sites**
-    
     - Northern Territory (NT)
-        
     - Western Australia (WA)
         
 

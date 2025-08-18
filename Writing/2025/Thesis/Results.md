@@ -872,13 +872,13 @@ Battery cost
 
 ConfigurationEquipment cost ($)Land and installation ($)Fixed & variable O&M ($)Battery cost ($)Battery O&M ($)Total cost ($)PV15,341,000920,000235,000096,00016,592,000Wind30,683,0002,455,000345,000096,00033,579,000Hybrid24,664,0001,808,000145,000096,00026,713,000Hybrid with storage24,664,0001,808,000145,0005,620,00096,00032,333,000
 
-![[image-23.png]]
+![[Writing/2025/attachments/image-23.png]]
 
-![[image-24.png]]
+![[Writing/2025/attachments/image-24.png]]
 
 
 ## Performance Metrics by Configuration
-![[image-21.png]]
+![[Writing/2025/attachments/image-21.png]]
 
 #capacity factor
 

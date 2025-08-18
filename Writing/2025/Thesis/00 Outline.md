@@ -3,9 +3,9 @@
 
 Contents
 
-[Abstract. ](Abstract)
+[Abstract. ](Abstract.md)
 
-[Acknowledgements. 2](Abstract#Acknowledgement)
+[Acknowledgements. 2](Abstract.md#Acknowledgement)
 
 [[01 Introduction and background| Chapter 1: Introduction]]
 	[1.1 Background and Motivation. 4](#_Toc192135799)
@@ -143,11 +143,30 @@ Evan Pugh University Professor and Kappe Professor of Environmental Engineering,
 
 
 # Acknowledgements
-I would like  tank Dr Shi for his continual support.
 
-I will like to acknowledge the work of H2A team
+I would like  thank my research advisor Dr Shi for his continual support and guidance.
+
+I will like to acknowledge the work of DOE H2A team for providing the grounds for the TEA model.
+Icorps facilitators Olga E Petrova and Erienne Olesh provideing a NSF-iCorps  platform to reach out to experts on this topic.
+Hydrogen economy and cost driver Survey contributions from Dr. Jae Lee, Toyota Research Institute of America
 
 Thank Dr. Philip Savage , Dr. Andrew Zydney and Dr. Bruce Logan for being on my committee.
+
+
+
+**Acknowledgements**
+
+**Acknowledgements**  
+  
+I would like to express my sincere gratitude to my research advisor, Dr. Shi, for his unwavering support, insightful guidance, and encouragement throughout my research. Her vast knowledge, critic, sharp insights and feedback have been valuable in shaping the depth and course of this research. I would like to appreciate the support of other research group members, Farhad Zaker, Hafi Wadgama, Kay Glass, Elizabeth Aigaje and Sakib Nuro.
+
+My thanks also go to the U.S.. Department of Energy’s H2A team for developing and maintaining the foundational techno-economic analysis model that underpins this study. Their open-access framework provided a robust starting point for my integrated modeling efforts.
+
+I am grateful to the NSF I-Corps facilitators, Olga E. Petrova and Erienne Olesh, whose mentorship and I-Corps program helped me engage with industry experts and refine the practical relevance of my research.
+
+Special appreciation is due to Dr. Jae Lee of the Toyota Research Institute of America for contributing insights from the hydrogen economy and cost-driver survey, which set the trajectory for my analysis.
+
+Finally, I would like to thank Dr. Philip Savage, Dr. Andrew Zydney, and Dr. Bruce Logan for agreeing to serve on my thesis committee.
 
 
 
@@ -219,11 +238,17 @@ Understand the Purpose:
 - **Undefined Abbreviations:** Avoid using abbreviations that are only explained in the main paper.
 - **Sensationalizing or Speculating:** Focus on presenting the actual research, not making unsubstantiated claims or predictions.
 
+# Abstract
+The global transition to a low-carbon economy hinges on making green hydrogen cost-competitive with fossil fuel-derived alternatives. PEM electrolysis has evolved as an optimistic solution; however, its adoption is hindered by the high cost of production. While various government incentives can help bridge this gap, long-term viability requires fundamental cost optimization in production technology. This thesis addresses the critical need for a systematic framework that connects advances in Proton-Exchange-Membrane (PEM) electrolyzer design and electricity source configuration with system-level techno-economic outcomes.
 
-The global transition to a low-carbon economy hinges on making green hydrogen cost-competitive with fossil-derived alternatives. PEM electrolysers have evolved as optimistic solution While various government incentives can help bridge this gap, long-term viability requires fundamental cost optimization in production technology. This thesis addresses the critical need for a systematic framework that connects advances in proton-exchange-membrane (PEM) electrolyzer design and electricity source configuration with their system-level techno-economic outcomes.
+A lumped PEM electrolyzer submodel determines the activation, ohmic, and concentration overpotentials with Faradaic efficiency from the design materials. A modular technoeconomic assessment (TEA) applies capital-cost scaling with a 20-year discounted cash flow analysis to compute the LCOH and net present value (NPV). An hourly resolved energy supply sub-model simulates photovoltaic, wind, hybrid, and grid-interactive configurations at representative inland locations in the U.S.(great plain achetypal).
+
+Sensitivity and uncertainty analyses revealed that the electricity feedstock cost and the uninstalled electrolyzer CAPEX are the dominant cost drivers. For a 10,000 kg/day baseline facility, a $0.09/kWh difference in electricity price affects over 80% of the NPV. Furthermore, the choice of renewable energy configuration and local resource profile can alter the LCOH by 20–30%. Economies of scale show diminishing returns beyond a capacity of approximately 10,000 kg/day, as electricity costs begin to dominate savings from capital investments.
+
+These results recommend technical targets of specific energy consumption ≤ 45 kWh/kg, installed cost ≤ $500/kW, and power tariffs ≤ $0.05/kWh to achieve sub-$5/kg hydrogen, guiding R&D and investment toward DOE’s $1–2/kg goals. The modularity of the framework enables future extensions, such as material-substitution sensitivity, surrogate-accelerated optimization, and geospatial LCOH mapping to inform policy and commercial deployment strategies.
 
 
-This framework equips stakeholders with decision-support tools to guide the cost-effective, resilient design and deployment of next-generation PEM hydrogen systems.
+
 # Abstract
 
 **Abstract**
@@ -264,6 +289,10 @@ Impotance of the Study
 Limitation, Delimitations, Assuumptions
 Organization of Thesis
 Definitions
+
+
+Problem statement
+Structure of thesis
 
 
 

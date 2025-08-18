@@ -7,8 +7,8 @@ Argumentative analysis.
 
 
 
-![[image-18.png]]
-![[image-20.png]]
+![[Writing/2025/attachments/image-18.png]]
+![[Writing/2025/attachments/image-20.png]]
 
 
 Contour plots
@@ -231,7 +231,7 @@ $\text{LCOH} \approx \frac{\text{Electrolyzer CAPEX} \times \text{CRF}}{\text{CF
 CF vrs Capex
 Comparing reliablity of energy source to the TIC?
 Is expensive renewables better than more stabe and cheaper electricity
-![[image-17.png|532x319]]
+![[Writing/2025/attachments/image-17.png|532x319]]
 
 The sweet spot for sub-$6/kg hydrogen is CF ≥ 0.8 combined with CAPEX ≤ $600/kW.”
 
