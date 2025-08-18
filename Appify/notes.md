@@ -138,7 +138,7 @@ now begin process the task in @/tasks/tasks-prd-streamlit-ui.md to write the cod
 
 
 Biosteam plus plus
-process simulation gui with biosteam backend( canvas)
+process modeling and simulation gui with biosteam backend( canvas). 
 techno-economic analysis 
 agentic chat interface copilot
 case studies and community examples 
@@ -149,6 +149,32 @@ flowsheet generation
 deep research
 Agentic MCP
 techno-economic analysis results and report generation
+
+Features with some details
+Develop a node flow GUI for biosteam. Modern Node Based Flow Editor
+Next js
+a drag ,drop, connect canvas interface with sidebars and Process instrumentation PID icons for different operational units,. Adopt concepts from Aspen hysis and plus
+
+different applications of biosteam
+Access to different opensourced models
+
+A GUI with a sidebar for options and parameters.
+Developer mode: The app should have a backend where the user should have access to the codes that connects the UI.
+
+example and template models
+---
+An example and demonstration feature with already made models drawn form community templates.
+Bioindustrial-Park- models from people on different areas.
+different applications of biosteam
+Access to different opensourced models
+https://biosteam.readthedocs.io/en/latest/API/biorefineries/index.html
+https://github.com/BioSTEAMDevelopmentGroup/Bioindustrial-Park
+
+AI integration 
+	For debuging
+	Chat model to build from scratch based on prompt.
+
+
 
  429 error fixes
 ---
