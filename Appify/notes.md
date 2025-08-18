@@ -136,6 +136,7 @@ naa the electrolyser design page should should be electrolcheical desdign driven
 
 now begin process the task in @/tasks/tasks-prd-streamlit-ui.md to write the code following the instructions in @/prompts/04process-task.md
 
+---
 
 Biosteam plus plus
 process modeling and simulation gui with biosteam backend( canvas). 
@@ -175,7 +176,73 @@ AI integration
 	Chat model to build from scratch based on prompt.
 
 
+PRD for:
+1. Node Editor (prd-node-editor.md)
+2. Backend Integration (prd-backend.md)
+3. AI Features (prd-ai.md)
+4. Community Features (prd-community.md)
 
+
+
+---
+
+#OpenLCA_Copilot
+GUI to translate words to python program that reuns OPENLCA. calls functions with agentic tools protocols. mcp
+
+Tools for web desktop interface.
+
+
+Open LCA python API
+ link to- [[OpenLCA - API]]
+Inter-process communiction - IPC
+
+Documentation
+link https://greendelta.github.io/openLCA-ApiDoc/
+
+
+hey i am developing a chat-agent copilot for openLCA softaware. 
+
+Life Cycle Assessment, Large Language Models, Environmental Informatics, openLCA, AI Copilot, Sustainability Decision Support, Agent Systems
+
+MVP 1
+Interface framework
+**1. PyQt/PySide:**
+- **PyQt** and **PySide** are Python bindings for the powerful and feature-rich Qt framework.
+
+Documentation
+https://wiki.python.org/moin/PyQt
+
+A lean, five-day sprint plan to get an OpenLCA Copilot MVP up and running using PyQt for the UI, CrewAI for LLM orchestration, and the `olca-ipc` client.
+
+### Project Structure (scaffold)
+
+```pgsql
+openlca-copilot/
+├── src/
+│   ├── ui/
+│   │   └── main_window.py          # PyQt application entry
+│   ├── agent/
+│   │   ├── llm_client.py           # CrewAI wrapper for GPT function calls
+│   │   └── intent_router.py        # Maps LLM intents to backend functions
+│   ├── olca/
+│   │   └── olca_client.py          # olca-ipc wrapper: createProject, runLCA…
+│   ├── core/
+│   │   └── session_state.py        # Tracks open project, last results
+│   └── app.py                      # Boots UI + wires agent + olca
+├── tests/                          # Unit tests for each module
+├── requirements.txt                # PyQt5, crew-ai, olca-ipc, pytest…
+└── README.md                       # Quickstart, future work notes
+
+```
+#### Extension Points:
+
+* **Drop-in alternate LLM:** (e.g., local Llama) by swapping `agent/llm_client.py`.
+* **Support additional function calls:** by adding stubs in `olca/olca_client.py`.
+* **Skin the UI or add dialogs:** just by extending `ui/` components.
+
+
+
+---
  429 error fixes
 ---
 
@@ -219,3 +286,22 @@ Max output: 65,535 tokens
 Input price: $0.15 / 1M tokens
 Output price: $0.60 / 1M tokens
 * Free up to 15 requests per minute. After that, billing depends on prompt size.
+
+
+--- cline
+plan
+deepseek/deepseek-chat-v3-0324:free
+DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.
+Does not support images
+Does not support browser use
+Does not support prompt caching
+Context Window: 163,840 tokens
+
+t's 671B parameters in size, with 37B active in an inference pass.
+
+Fully open-source model.
+
+**Does not support images\
+**Does not support browser use\
+**Does not support prompt caching\
+Context Window: 163,840 tokens
