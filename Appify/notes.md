@@ -138,12 +138,17 @@ now begin process the task in @/tasks/tasks-prd-streamlit-ui.md to write the cod
 
 
 Biosteam plus plus
-process simulation gui with biosteam
+process simulation gui with biosteam backend( canvas)
 techno-economic analysis 
 agentic chat interface copilot
-- 
+case studies and community examples 
+developer mode for direct code editing and debuging
+
 ML features
 flowsheet generation
+deep research
+Agentic MCP
+techno-economic analysis results and report generation
 
  429 error fixes
 ---
