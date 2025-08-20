@@ -886,7 +886,7 @@ ConfigurationEquipment cost ($)Land and installation ($)Fixed & variable O&M ($)
 
 
 LCOE breakdown
-![[image-26.png]]
+![[Writing/2025/attachments/image-26.png]]
 
 ## LCOH Comparison Across Configurations
 
