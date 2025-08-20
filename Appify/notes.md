@@ -255,6 +255,7 @@ Review the API usage dashboard or relevant documentation to understand the speci
 Utilize Caching:
 If possible, cache API responses to reduce the need for repeated requests for the same data within a short period.
 
+roocode
 gemini-2.0-flash-thinking-ex-01-21
 ---
 Supports images
