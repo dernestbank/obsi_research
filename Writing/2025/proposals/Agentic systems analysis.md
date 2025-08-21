@@ -98,7 +98,7 @@ Recent advances in machine learning, particularly large language models and agen
 
 ### 2.1 Current State of Process Systems Analysis
 
-Traditional process systems analysis relies heavily on specialized software tools and expert knowledge. Biosteam has emerged as a leading platform for biorefinery TEA, offering comprehensive process modeling capabilities. Similarly, Brightway provides sophisticated LCA computational frameworks with extensive database integration capabilities. However, these tools require significant expertise and manual configuration.
+Traditional process systems analysis relies heavily on specialized software tools and expert knowledge. Biosteam has emerged as a leading platform for biorefinery TEA, offering comprehensive process modeling capabilities. Similarly, Brightway provides LCA computational frameworks with extensive database integration capabilities. However, these tools require significant expertise and manual configuration.
 
 Recent work in automated process analysis has focused primarily on optimization algorithms and sensitivity analysis. Limited research has explored the integration of natural language interfaces with specialized analytical tools for autonomous systems analysis.
 
