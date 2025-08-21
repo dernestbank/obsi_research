@@ -112,10 +112,10 @@ In the first benchmarking experiment 12 a single-cell electrolyzer with Nafion 1
 
 Experimented data from sheepers et al. (2020), Jang et al 2022, Chung et al 2024
 Scheepers et al. (2020):
- Nafion 212 has been used as the membrane (dm = 51 μm), and a platinum loading of the cathode of 0.25 mg cm−2 and an iridium oxide loading of the anode of 0.96 mg cm−2 have been used. The ionomer content was set to 10 wt.%. Platinum-coated Bekaert titanium felt (350 μm) was used as the anod
+ Nafion 212 has been used as the membrane (dm = 51 μm), and a platinum loading of the cathode of 0.25 mg cm−2 and an iridium oxide loading of the anode of 0.96 mg cm−2 have been used. The ionomer content was set to 10 wt.%. Platinum-coated Bekaert titanium felt (350 μm) was used as the anode
 Chung
  Nafion 117 (membrane thickness of 178 μm)
-@scheepersImprovingEfficiencyPEM2020; @jangTechnoeconomicAnalysisMonte2022; @chungDesignSpacePEM2024
+@scheepersImprovingEfficiencyPEM2020; @jangTechnoeconomicAnalysisMonte2022; @chungDesignSpacePEM2024 
 Electrolyzer params
 
 
