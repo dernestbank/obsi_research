@@ -266,7 +266,7 @@ accuracy and latency.
 
 -----
 
-# **PhD Research Proposal:** An Agentic Machine-Learning Framework for Autonomous Process Systems Analysis Integrating Techno-Economic Analysis and Life Cycle Assessment
+# **PhD Research Proposal: **An Agentic Machine-Learning Framework for Autonomous Process Systems Analysis Integrating Techno-Economic Analysis and Life Cycle Assessment
 
 ## **1. Introduction and Problem Statement**
 
