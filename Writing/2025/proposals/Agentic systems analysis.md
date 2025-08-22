@@ -253,7 +253,15 @@ Utilize the rich Python ecosystem for:
 - Expert annotations for methodology validation
 
 
+Citation
+Cortes-Peña, Y., Guest, J. S. Jan. 30, 2020. “BioSTEAM: The Biorefinery Simulation and Techno-Economic Analysis Modules.”
 
+Opportunities
+Closed sourced
+ open-source LLMs in both
+
+Metrics
+accuracy and latency.
 
 
 -----
@@ -285,8 +293,9 @@ In summary, **the state of the art** reveals isolated pieces – integrated TEA/
 ## **3. Proposed Framework and Methodology**
 
 **3.1 Architecture Overview:** The system will be built around an LLM-driven _agentic orchestrator_ that interfaces with simulation engines, databases, and machine learning modules. **Figure 1** depicts the high-level architecture of the proposed framework. The central AI agent (implemented via a state-machine approach using the Model Context Protocol, MCP) serves as the coordinator, receiving high-level goals from the user and managing the workflow through various tools and sub-modules.
+![[image-2.png]]
 
-![[image-1.png]]
+
 
 
 _Figure 1: Proposed architecture of the autonomous PSA framework. An LLM-based agent orchestrator (left) communicates with process simulation & TEA tools (top center, e.g. BioSTEAM or Aspen), LCA engines (center, e.g. Brightway or OpenLCA), and an ML toolkit (right) for surrogates and optimization. The agent uses the Model Context Protocol (MCP) to manage tool interactions with well-defined states (planning, executing, reviewing), enabling it to plan experiments, execute simulations, invoke LCA calculations (with background databases), train models, and iterate towards optimal solutions. Dashed lines indicate information flows or user inputs/oversight._
@@ -349,7 +358,13 @@ Crucially, each case study will produce a set of artifacts: a detailed report ge
 
 The project is planned for a duration of approximately 2 to 2.5 years (24–30 months), which is aggressive but feasible given the modular nature of development. Below is a Gantt chart illustrating the timeline of major tasks and milestones over this period:
 
-![](blob:https://chatgpt.com/3227cdce-a5aa-4ddc-940b-f0551333cae5)
+
+![[Pasted image 20250822121053.png]]
+
+
+
+
+
 
 _Figure 2: Tentative 2.5-year PhD timeline with key tasks. Overlapping bars indicate concurrent progress on multiple fronts. Early stages focus on framework design and integration (architecture, TEA-LCA coupling), followed by surrogate modeling and agent development. Optimization (MOBO) integration and case study implementations overlap in mid-phase. Final stages emphasize evaluation, dissemination (writing) and ensuring robustness of the system. Actual timing may adjust as needed._
 
@@ -451,7 +466,10 @@ In summary, the state-of-the-art suggests: **(i)** TEA-LCA integration is recogn
 
 ## Proposed Framework and System Architecture
 
-![](blob:https://chatgpt.com/cd30e555-5db3-4703-8357-e4a5cfd7d51b)
+
+![[image-1.png]]
+
+
 
 _Proposed system architecture integrating an LLM-driven agent with process simulation, TEA/LCA tools, machine learning models, and optimization engines._ The envisioned framework consists of a **central AI agent (LLM-based)** that orchestrates various modules: (1) a **Process Simulation + TEA module** (e.g. flowsheet in Aspen Plus or BioSTEAM) for calculating material/energy balances and economics, (2) an **LCA module** (e.g. Brightway2 or OpenLCA) for computing life-cycle environmental impacts, (3) a suite of **Predictive ML models** (surrogate models like Gaussian processes, PINNs, gradient-boosted trees) to approximate process outputs or speed up calculations, (4) an **Optimization module** implementing techniques such as Bayesian optimization or reinforcement learning to explore the design space, and (5) access to **knowledge bases and datasets** (such as thermodynamic databases, equipment cost databases, or LCI databases) for supporting information. The LLM agent serves as the _“brain”_ of the system, making decisions on what actions to take (which tool to run, what variables to adjust) in order to achieve the objectives (e.g. minimize cost and emissions).
 
