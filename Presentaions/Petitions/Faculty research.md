@@ -263,7 +263,7 @@ John and Willie Leone Family Department of Energy and Mineral Engineering
 
 
 
-![[image.png|181x253]]
+![[Presentaions/Petitions/attachments/image.png|181x253]]
 
 Olumide Ogunmodimu
 Email ozo5101@psu.edu

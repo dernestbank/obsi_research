@@ -8,7 +8,7 @@ G. A. Buchner, A. W. Zimmermann, A. E. Hohgräve, and R. Schomäcker, “Techno-
 
 
 
-![[image.png]]
+![[Learning/TEA/attachments/image.png]]
 
 
 

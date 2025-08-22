@@ -158,7 +158,7 @@ These values were read off the published scatter points a
 
 `The coefficients α, j0, and ax were determined from fitting experimental data at 80 °C and atmospheric pressure. Nafion 212 has been used as the membrane (dm = 51 µm), and a platinum loading of the cathode of 0.25 mg cm−2 and an iridium oxide loading of the anode of 0.96 mg cm−2 have been used. The ionomer content was set to 10 wt.%. Platinum-coated Bekaert titanium felt (350 µm) was used as the anode PTL, along with Toray carbon paper TGP-H-120. An electric resistance of 68 mΩ cm2 was measured for the cell area of 17.64 cm2 by impedance spectroscopy, which means that R0 = 27 mΩ cm2. The voltage was set to be between 0 and 1.85 V, resulting in current densities of up to 3.07 A cm−2.`
 
-![[image.png|255x378]]
+![[Research notes/Experimental validations/attachments/image.png|255x378]]
 
 Figure 3. Top: Cell voltage as a function of current density of the real data (orange dots) and the fit (black). Bottom: Hydrogen concentration in oxygen (line) and hydrogen crossover current density (dashed) as a function of current density. The real data are shown as orange marks.
 

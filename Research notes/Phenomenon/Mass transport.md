@@ -537,7 +537,7 @@ This note compiles key material properties, empirical correlations, and transpor
     - [ ] See Figs. 6-7 in Ito et al. for exact fits).
 
 
-![[image.png|353x555]]
+![[Research notes/Phenomenon/attachments/image.png|353x555]]
 
 ![[Research notes/Phenomenon/attachments/image-1.png|266x449]]
 

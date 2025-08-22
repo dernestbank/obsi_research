@@ -71,7 +71,7 @@ The PV energy system simulator provides the following outputs:
 - **Data Deliverables**: Comprehensive reports and data sets are provided, enabling further analysis and integration into other systems or reports.
 
 
-![[image.png]]
+![[Appify/attachments/image.png]]
 
 
 

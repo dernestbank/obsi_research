@@ -217,7 +217,7 @@ These benefits could make distributed systems preferable in some cases, even if 
 
 #IRR_NPV
 
-![[image.png]]
+![[Presentaions/presentation/attachments/image.png]]
 
 context and basis
 basis effect

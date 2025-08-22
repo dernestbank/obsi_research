@@ -105,7 +105,7 @@ where φ is the latitude of the considered location, δ is the declination angle
 the PV module temperature
 the online available data related to temperature is the ambient temperature (Tambient)
 
-![[image.png]]
+![[reading notes/attachments/image.png]]
 
 Wind power modeling.
 

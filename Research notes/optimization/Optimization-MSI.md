@@ -5,7 +5,7 @@
 | Download Scientific Diagram
 
 
-![[image.png]]
+![[Research notes/optimization/attachments/image.png]]
 
 ![[Research notes/optimization/attachments/image-3.png]]
 [https://doi.org/10.1016/j.asoc.2014.07.009](https://doi.org/10.1016/j.asoc.2014.07.009 "Persistent link using digital object identifier")

@@ -34,7 +34,7 @@ direct and indirect labor
 fixed and variable 
 property taxes, insurance
 and rent will remain the same, and thus are the fixed costs
-![[image.png]]
+![[Presentaions/Thesis/attachments/image.png]]
 
 
 
