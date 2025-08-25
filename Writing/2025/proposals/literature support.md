@@ -115,5 +115,21 @@ When autoencoding models are trained, they attempt to predict the next token in 
 20 multi-modal benchmarks (Gemini Team et al., 2023), (Pichai), and Sora,
 This type of LLM can be useful for LCA tasks that could involve image generations,
 
-![[Pasted image 20250825100737.png]]
+![[llm training, architecture and use.png|559x356]]
 
+2.2. Training
+
+the dataset has been processed, it is often tokenized to decrease the computational cost of training.
+ inner alignment, LLMs are trained to achieve the goals of the designer (Shen et al., 2023). This goal is typically achieved through minimizing the loss function by tuning the model parameters.
+
+Outer alignment of an LLM occurs when the training objective matches the goal of the human designer (Shen et al., 2023). Outer alignment is generally considered to be achieved if an AI model is considered to be helpful, honest, and harmless (Askell et al., 2021),
+and these properties are primarily developed through reinforcement learning with human feedback (RLHF) (Christiano et al., 2017), (Wolf et al., 2023).
+
+
+LLMs with a larger number of pa rameters in the model outperform smaller models when trained on the same training data by having a response with greater complexity and verisimilitude (Srivastava et al., 2023), (Rosoł et al., 2023), (Brown et al., 2020).
+
+LLMs that have been fine-tuned on a domain-specific task outperform a general LLM (Gururangan et al., 2020). Taking advantage of these findings. some organizations have pre-trained and fine-tuned LLMs on sustainability (Kaiwu), climate (Webersinke et al., 2022), or Intergovernmental Panel on Climate Change (Vaghefi et al., 2023) literature to improve model performance, but no one has yet built an LLM for LCA tasks.
+
+advantages of LLMs, such as improving the accessibility of LCAs, increasing time efficiency, providing expert-level advice, and improving data management.
+
+![[image-4.png]]

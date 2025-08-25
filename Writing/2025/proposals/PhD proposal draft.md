@@ -21,6 +21,7 @@ Agent architecture
 Custom model training through LoRA, low end
 Application
 the four phases of LCA and its application
+rag vrs fine-tunning
 
 Most literatures focus on prompt engineering
 Agents - are special llms trained on specific task

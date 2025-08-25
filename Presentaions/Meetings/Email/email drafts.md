@@ -500,4 +500,10 @@ Ernest Boakye Danquah
 ---
 
 
-Email to Dr. shi
+## Email to Dr. shi
+---- 
+
+Hello Dr Shi here is my schedule for the fall semester . 
+
+
+
