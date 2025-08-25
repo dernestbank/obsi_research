@@ -2,8 +2,25 @@
  Agentic Machine-Learning Framework for Autonomous Process Systems Analysis Integrating Techno-Economic Analysis and Life Cycle Assessment
 
 
-key words: low TRL,
+key words: low TRL, Generative AI, Machine learning, 
+Large Language Models (LLMs)
+Low-Rank Adaptation (LoRA) for low
+during the early stages of the design process
+pipeline
+frameworks: langchain, CrewAI
+LLM augumented LCA
 
+ML applications
+conventional ML predictive AI vrs generative AI
+define LLM
+SWOT on LLM 
+open source vrs closed sources
+
+function calling and multi-step reasoning
+Agent architecture
+Custom model training through LoRA, low end
+Application
+the four phases of LCA and its application
 ## 1. Introduction and Problem Statement
 Process systems analysis (PSA) plays a critical role in evaluating the viability and sustainability of chemical processes through **techno-economic analysis (TEA)** and **life cycle assessment (LCA)**. TEA assesses the economic performance (e.g. costs, profitability) of a process or product, while LCA quantifies environmental impacts across the process life cycle. TEA and LCA provide complementary insights for decision-makers but require extensive data collection and computation, which is often a limiting factor especially for emerging technologies.
 Most studies frequently rely on ad-hoc spreadsheet models, specialized tools and human expertise, making it difficult to rapidly iterate designs or integrate new data. 
