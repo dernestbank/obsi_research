@@ -101,10 +101,19 @@ VDB Vector databases
 
 
 ![[Preeuss et al.png]]
+Fig. 1. Overview of the topics discussed in this study. An overview of LLMs, including training methods and model variants is given in Section 2. The strengths of LLMs and their application to a comprehensive selection of LCA tasks is given in Section 3. The challenges with using LLMs for LCA tasks are identified in Section 3, but methods to address these challenges are discussed in Section 4, culminating in the perspective of LLM-augmented LCA frameworks to increase LCA quality while spending significantly reduced time on the LCA. Section 5 discusses the risks of using LLMs for LCA tasks and potential mitigation methods.
 
 
+LLM-augmented LCA frameworks to increase LCA quality while spending significantly reduced time on the LCA
+2.1. Architecture
+consists of two blocks, an encoder and decoder,
+The encodertakes an input, or prompt, and maps it onto a target vector, which the decoder then translates into an output (Sutskever et al., 2014). LLMs are grouped into autoencoding models, autoregressive models, and sequence-to-sequence models, depending on which parts of the transformer architecture are used.
+LLMs that only use a decoder are also called autoencoding models, which typically take in a user prompt and generate a response as an output. Common autoencoding models including GPT-4 from OpenAI (OpenAI, 2023), and Gemini from Google among others
 
+When autoencoding models are trained, they attempt to predict the next token in a sequence given the previous tokens, in essence solving a very large conditional probability problem (Min et al., 2024 ).
 
+20 multi-modal benchmarks (Gemini Team et al., 2023), (Pichai), and Sora,
+This type of LLM can be useful for LCA tasks that could involve image generations,
 
-
+![[Pasted image 20250825100737.png]]
 

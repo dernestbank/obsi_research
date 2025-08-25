@@ -21,6 +21,9 @@ Agent architecture
 Custom model training through LoRA, low end
 Application
 the four phases of LCA and its application
+
+Most literatures focus on prompt engineering
+Agents - are special llms trained on specific task
 ## 1. Introduction and Problem Statement
 Process systems analysis (PSA) plays a critical role in evaluating the viability and sustainability of chemical processes through **techno-economic analysis (TEA)** and **life cycle assessment (LCA)**. TEA assesses the economic performance (e.g. costs, profitability) of a process or product, while LCA quantifies environmental impacts across the process life cycle. TEA and LCA provide complementary insights for decision-makers but require extensive data collection and computation, which is often a limiting factor especially for emerging technologies.
 Most studies frequently rely on ad-hoc spreadsheet models, specialized tools and human expertise, making it difficult to rapidly iterate designs or integrate new data. 
